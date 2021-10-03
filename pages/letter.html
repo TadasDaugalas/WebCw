@@ -2,9 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0">
     <title>Laiškas man</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
-
+<div class="secondPage">
+<div class="names">
+    Parašykite man laiškelį.
+</div >
+    <div class="input_form">
+    <form >
+        <input type="text" id="fname" placeholder="Jusu vardas">
+        <input type="text" id="lname" placeholder="Jusu pavardė">
+        <input type="email" id="email" placeholder="Jusu elektroninis paštas">
+        <input type="text" id="letter" placeholder="Jusu žinutė">
+    </form>
+    </div>
+    <button onclick="myFunction()"> Siusk zinute <i class="glyphicon glyphicon-envelope"></i></button>
+    <script>
+        function myFunction() {
+            alert("Jusu laiškas išsiustas");
+        }
+    </script>
+</div>
 </body>
 </html>
