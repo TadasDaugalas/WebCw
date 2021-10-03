@@ -1,7 +1,12 @@
+@font-face {
+font-family: Arial;
+}
 body{
 display: flex;
 flex-direction: column;
     font-size: 28px;
+    height: 100vh;
+    margin: 0;
 }
 .photo img {
     border: 2px solid green;
@@ -28,7 +33,7 @@ flex-direction: column;
 .education_lines{
     text-align: center;
     display: inline-block;
-
+    border-bottom: 5px solid #887a7a;
 }
 .education{
     display: flex;
@@ -38,10 +43,21 @@ flex-direction: column;
     border-bottom: 5px solid #887a7a;
     text-align: center;
 }
-.alfa{
+.alfa {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+}
+footer {
+    min-height: 50px;
+    margin-top: auto;
+    padding: 10px;
     text-align: center;
 }
+
+
+
+
+
 
 
