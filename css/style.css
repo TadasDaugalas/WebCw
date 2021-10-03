@@ -1,0 +1,47 @@
+body{
+display: flex;
+flex-direction: column;
+    font-size: 28px;
+}
+.photo img {
+    border: 2px solid green;
+    float: right;
+    border-radius: 50%;
+}
+.names{
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+.location{
+    display: table-caption;
+    font-size: 36px;
+
+}
+.description{
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: dotted;
+}
+.education_lines{
+    text-align: center;
+    display: inline-block;
+
+}
+.education{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #887a7a;
+    text-align: center;
+}
+.alfa{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+
